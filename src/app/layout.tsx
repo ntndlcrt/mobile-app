@@ -2,12 +2,12 @@
 
 import '@/styles/app.scss'
 
-import { Montserrat } from '@next/font/google'
+import { Raleway } from '@next/font/google'
 import { SessionProvider } from 'next-auth/react'
 
-const montserrat = Montserrat({
+const raleway = Raleway({
 	subsets: ['latin'],
-	variable: '--font-montserrat'
+	variable: '--font-raleway'
 })
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<head />
-			<body className={montserrat.variable}>
+			<body className={raleway.variable}>
 				<SessionProvider>{children}</SessionProvider>
 			</body>
 		</html>
