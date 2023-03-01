@@ -6,6 +6,9 @@ function Home() {
 			<h1 className="text-[6.4rem] uppercase font-extrabold">
 				Web Keeper ma gueule
 			</h1>
+			<a href="#" className="button">
+				C'est parti
+			</a>
 			<Feed />
 		</div>
 	)
