@@ -1,4 +1,5 @@
 import Feed from '@/components/Feed'
+import Larry from '@/components/Larry'
 
 function Home() {
 	return (
@@ -10,6 +11,7 @@ function Home() {
 				C'est parti
 			</a>
 			<Feed />
+			<Larry svgId="sonar" />
 		</div>
 	)
 }
